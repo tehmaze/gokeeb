@@ -14,3 +14,8 @@
 ### Maybe-term
 
 [ ] VIA support
+
+## Building
+
+See the individual targets
+

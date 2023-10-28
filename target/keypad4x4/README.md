@@ -1,5 +1,7 @@
 # Keypad 4x4
 
+## Wiring
+
 Uses an [Adafruit 4x4 Matrix](https://www.adafruit.com/product/3844) on Raspberry Pi Pico:
 
 | Matrix PIN | Pi Pico       |
@@ -14,3 +16,11 @@ Uses an [Adafruit 4x4 Matrix](https://www.adafruit.com/product/3844) on Raspberr
 | 8 (`R3`)   | `GPIO12`      |
 | 9 (`R4`)   | `GPIO13`      |
 | 10 (`NC`)  | Not connected |
+
+## Building
+
+Using TinyGo, put the Pico info flash-mode and run:
+
+```bash
+tinygo flash -target pico ./target/keypad4x4
+```
